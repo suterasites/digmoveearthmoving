@@ -1,15 +1,18 @@
-# CLAUDE.md - DIG and MOVE Earthmoving
+# CLAUDE.md - DIG and MOVE Earthworks
+
+> **Note:** The correct business name is "DIG and MOVE Earthworks" (not "Earthmoving").
 
 ## Business Context
 
-**Business Name:** DIG and MOVE Earthmoving
+**Business Name:** DIG and MOVE Earthworks
 **Phone:** 0427 297 942
 **Email:** hastingshaulage1@outlook.com
-**Location:** Melbourne, VIC and Gippsland region
+**Location:** Based in Sunbury, VIC - servicing Melbourne, surrounding suburbs, and the Gippsland region
 **Clients:** Residential, rural, and commercial
 
 ### About
-- Family-run earthworks business operating across Melbourne, VIC and out to the Gippsland region
+- Family-run earthworks business based in Sunbury, VIC, operating across Melbourne, surrounding suburbs, and out to the Gippsland region
+- Sunbury is the primary service area and home base - use this for local SEO targeting (e.g. "earthmoving Sunbury", "excavation Sunbury VIC")
 - Positions themselves on professional service and customer satisfaction
 - Covers all types of earthworks - not locked into one narrow lane
 - Can service residential builds, rural properties, and commercial sites, giving flexibility depending on where the work is
@@ -18,17 +21,35 @@
 - Listed as "Always open" on Facebook, signalling availability and flexibility
 
 ### Services
+- Form Tracks
+- Concrete Prep
+- Plumber Digs
+- Site Cut & Clean
+- Lawn Prep
+- Pool Digs
+- Basements
 - Dam Cleans
 - Farm Tracks
-- Site Cuts and Cleans
-- Concrete Prep
 - Soil Spreading
 - Dirt/Rock/Concrete Load Outs
 - Footings
 - Pier Holes
+- Trenching
+- Landscaping
+- Clean-ups
+
+### Fleet
+- 0.9T Excavator
+- 2T Excavator
+- 3T Excavator
+- 4T Excavator
+- 5.5T Excavator
+- 15T Excavator
+- 20T Excavator
+- 3T Posi Track
 
 ### Social Media
-- **Facebook:** DIG and MOVE Earthmoving - ~21 followers, no reviews yet. Currently categorised as "Home improvement" - could be updated to "Excavation contractor" or "Earthmoving service" for better discoverability. Most recent post (15 March 2026) shows a Case excavator on a residential job site - real job photos build trust
+- **Facebook:** DIG and MOVE Earthworks - ~21 followers, no reviews yet. Currently categorised as "Home improvement" - could be updated to "Excavation contractor" or "Earthmoving service" for better discoverability. Most recent post (15 March 2026) shows a Case excavator on a residential job site - real job photos build trust
 
 ---
 
@@ -82,6 +103,11 @@
 - **Always deploy changes to GitHub and Vercel** after making code changes.
 - Git remote: `origin` (check with `git remote -v` for current URL)
 - Push to `main` branch, then deploy to Vercel with `vercel --prod --yes`.
+
+## Multi-Page Consistency
+- **Navbar:** The navbar must be identical across all pages. If the navbar is modified on any page, apply the same change to every other page immediately.
+- **Footer:** The footer must be identical across all pages. If the footer is modified on any page, apply the same change to every other page immediately.
+- **Internal links:** All text links that reference a page on the site must link to the correct page URL. When a new page is created, scan all existing pages and update any mentions of that topic to link to the new page.
 
 ## Hard Rules
 - Do not add sections, features, or content not in the reference

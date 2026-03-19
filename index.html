@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DIG and MOVE Earthmoving | Earthworks Across Melbourne & Gippsland</title>
-  <meta name="description" content="Family-run earthmoving across Melbourne and Gippsland. Dam cleans, site cuts, concrete prep, footings, pier holes and more. Call 0427 297 942.">
-  <meta name="keywords" content="earthmoving, excavation, site cuts, dam cleans, footings, pier holes, concrete prep, Melbourne, Gippsland, VIC">
+  <title>DIG and MOVE Earthworks | Earthworks in Sunbury, Melbourne & Gippsland</title>
+  <meta name="description" content="Sunbury-based earthmoving servicing Melbourne and Gippsland. Dam cleans, site cuts, concrete prep, footings, pier holes and more. Call 0427 297 942.">
+  <meta name="keywords" content="earthmoving Sunbury, excavation Sunbury, earthworks Sunbury VIC, site cuts, dam cleans, footings, pier holes, concrete prep, Melbourne, Gippsland, VIC">
   <meta name="robots" content="index, follow">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="DIG and MOVE Earthmoving | Earthworks Across Melbourne & Gippsland">
-  <meta property="og:description" content="Family-run earthmoving across Melbourne and Gippsland. Dam cleans, site cuts, concrete prep, footings, pier holes and more.">
+  <meta property="og:title" content="DIG and MOVE Earthworks | Earthworks in Sunbury, Melbourne & Gippsland">
+  <meta property="og:description" content="Sunbury-based earthmoving servicing Melbourne and Gippsland. Dam cleans, site cuts, concrete prep, footings, pier holes and more.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_AU">
 
@@ -19,21 +19,22 @@
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "DIG and MOVE Earthmoving",
-    "description": "Family-run earthworks business operating across Melbourne, VIC and Gippsland region. Dam cleans, site cuts, concrete prep, footings, pier holes and more.",
+    "name": "DIG and MOVE Earthworks",
+    "description": "Sunbury-based earthworks business servicing Melbourne, surrounding suburbs, and the Gippsland region. Dam cleans, site cuts, concrete prep, footings, pier holes and more.",
     "telephone": "+61427297942",
     "email": "hastingshaulage1@outlook.com",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Melbourne",
+      "addressLocality": "Sunbury",
       "addressRegion": "VIC",
       "addressCountry": "AU"
     },
     "areaServed": [
+      { "@type": "Place", "name": "Sunbury" },
       { "@type": "Place", "name": "Melbourne" },
       { "@type": "Place", "name": "Gippsland" }
     ],
-    "serviceType": ["Dam Cleans", "Farm Tracks", "Site Cuts and Cleans", "Concrete Prep", "Soil Spreading", "Dirt/Rock/Concrete Load Outs", "Footings", "Pier Holes"],
+    "serviceType": ["Dam Cleans", "Farm Tracks", "Site Cuts and Cleans", "Concrete Prep", "Soil Spreading", "Dirt/Rock/Concrete Load Outs", "Footings", "Pier Holes", "General Plumbing", "Hot Water Systems", "Blocked Drains", "Gas Fitting"],
     "priceRange": "$$"
   }
   </script>
@@ -121,14 +122,19 @@
   <nav id="main-nav" class="fixed top-0 w-full z-50 bg-white backdrop-blur-sm border-b border-gray-200 transition-transform duration-300" role="navigation" aria-label="Main navigation">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16 sm:h-20">
-        <a href="#" class="flex items-center gap-2" aria-label="DIG and MOVE Earthmoving home">
+        <a href="index.html" class="flex items-center gap-2" aria-label="DIG and MOVE Earthworks home">
           <span class="font-display text-xl sm:text-2xl tracking-tight text-gray-900" style="letter-spacing: -0.02em;"><span class="text-brand">DIG</span> and <span class="text-brand">MOVE</span></span>
         </a>
-        <div class="hidden md:flex items-center gap-8">
-          <a href="#services" class="text-sm font-medium text-gray-600 hover:text-brand transition-colors duration-200">Services</a>
-          <a href="#about" class="text-sm font-medium text-gray-600 hover:text-brand transition-colors duration-200">About</a>
-          <a href="#gallery" class="text-sm font-medium text-gray-600 hover:text-brand transition-colors duration-200">Our Work</a>
-          <a href="#contact" class="text-sm font-medium text-gray-600 hover:text-brand transition-colors duration-200">Contact</a>
+        <div class="hidden lg:flex items-center gap-8">
+          <div class="relative flex items-center self-stretch" id="services-trigger">
+            <button class="text-sm font-medium text-gray-600 hover:text-brand transition-colors duration-200 flex items-center gap-1.5 py-2" aria-expanded="false" aria-haspopup="true" id="services-btn">
+              Services
+              <svg class="w-3 h-3 transition-transform duration-200" id="services-chevron" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+          </div>
+          <a href="about.html" class="text-sm font-medium text-gray-600 hover:text-brand transition-colors duration-200">About</a>
+          <a href="our-work.html" class="text-sm font-medium text-gray-600 hover:text-brand transition-colors duration-200">Our Work</a>
+          <a href="contact.html" class="text-sm font-medium text-gray-600 hover:text-brand transition-colors duration-200">Contact</a>
         </div>
         <div class="flex items-center gap-3">
           <a href="tel:0427297942" class="btn-primary inline-flex items-center gap-2 bg-brand hover:bg-brand-dark active:bg-brand-dark text-white font-semibold text-sm px-5 py-2.5 transition-spring transition-transform duration-300 hover:scale-[1.03] active:scale-[0.98]">
@@ -137,7 +143,7 @@
             <span class="sm:hidden">Call Now</span>
           </a>
           <!-- Hamburger button - mobile only -->
-          <button id="mobile-menu-btn" class="md:hidden flex items-center justify-center w-10 h-10 text-gray-600 hover:text-brand focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand active:scale-95 transition-transform duration-200" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <button id="mobile-menu-btn" class="lg:hidden flex items-center justify-center w-10 h-10 text-gray-600 hover:text-brand focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand active:scale-95 transition-transform duration-200" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
             <svg id="hamburger-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
             <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
           </button>
@@ -145,32 +151,109 @@
       </div>
     </div>
 
+    <!-- Mega Dropdown Panel (Desktop) -->
+    <div id="mega-menu" class="hidden lg:block absolute left-0 w-full bg-white border-t border-gray-100 opacity-0 -translate-y-2 pointer-events-none" style="top: 100%; transition: opacity 0.2s ease, transform 0.2s ease; box-shadow: 0 8px 16px rgba(212,130,12,0.08), 0 24px 48px rgba(0,0,0,0.1);">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="grid grid-cols-4 gap-8">
+          <!-- Site Preparation -->
+          <div>
+            <a href="site-preparation.html" class="font-display text-sm text-brand hover:text-brand-dark tracking-wide block mb-3 transition-colors duration-200">Site Preparation</a>
+            <ul class="space-y-2">
+              <li><a href="site-preparation.html" class="text-sm text-gray-500 hover:text-brand transition-colors duration-200">Site Cuts & Cleans</a></li>
+              <li><a href="site-preparation.html" class="text-sm text-gray-500 hover:text-brand transition-colors duration-200">Concrete Prep</a></li>
+              <li><a href="site-preparation.html" class="text-sm text-gray-500 hover:text-brand transition-colors duration-200">Footings</a></li>
+              <li><a href="site-preparation.html" class="text-sm text-gray-500 hover:text-brand transition-colors duration-200">Pier Holes</a></li>
+              <li><a href="site-preparation.html" class="text-sm text-gray-500 hover:text-brand transition-colors duration-200">Form Tracks</a></li>
+              <li><a href="site-preparation.html" class="text-sm text-gray-500 hover:text-brand transition-colors duration-200">Plumber Digs</a></li>
+              <li><a href="site-preparation.html" class="text-sm text-gray-500 hover:text-brand transition-colors duration-200">Pool Digs</a></li>
+              <li><a href="site-preparation.html" class="text-sm text-gray-500 hover:text-brand transition-colors duration-200">Basements</a></li>
+            </ul>
+          </div>
+          <!-- Earthmoving & Haulage -->
+          <div>
+            <a href="earthmoving-and-haulage.html" class="font-display text-sm text-brand hover:text-brand-dark tracking-wide block mb-3 transition-colors duration-200">Earthmoving & Haulage</a>
+            <ul class="space-y-2">
+              <li><a href="earthmoving-and-haulage.html" class="text-sm text-gray-500 hover:text-brand transition-colors duration-200">Soil Spreading</a></li>
+              <li><a href="earthmoving-and-haulage.html" class="text-sm text-gray-500 hover:text-brand transition-colors duration-200">Dirt, Rock & Concrete Load Outs</a></li>
+              <li><a href="earthmoving-and-haulage.html" class="text-sm text-gray-500 hover:text-brand transition-colors duration-200">Lawn Prep</a></li>
+            </ul>
+          </div>
+          <!-- Rural & Land Work -->
+          <div>
+            <a href="rural-and-land-work.html" class="font-display text-sm text-brand hover:text-brand-dark tracking-wide block mb-3 transition-colors duration-200">Rural & Land Work</a>
+            <ul class="space-y-2">
+              <li><a href="rural-and-land-work.html" class="text-sm text-gray-500 hover:text-brand transition-colors duration-200">Dam Cleans</a></li>
+              <li><a href="rural-and-land-work.html" class="text-sm text-gray-500 hover:text-brand transition-colors duration-200">Farm Tracks</a></li>
+            </ul>
+          </div>
+          <!-- Plumbing -->
+          <div>
+            <a href="plumbing.html" class="font-display text-sm text-brand hover:text-brand-dark tracking-wide block mb-3 transition-colors duration-200">Plumbing</a>
+            <ul class="space-y-2">
+              <li><a href="plumbing.html" class="text-sm text-gray-500 hover:text-brand transition-colors duration-200">General Plumbing</a></li>
+              <li><a href="plumbing.html" class="text-sm text-gray-500 hover:text-brand transition-colors duration-200">Hot Water Systems</a></li>
+              <li><a href="plumbing.html" class="text-sm text-gray-500 hover:text-brand transition-colors duration-200">Blocked Drains & Drainage</a></li>
+              <li><a href="plumbing.html" class="text-sm text-gray-500 hover:text-brand transition-colors duration-200">Gas Fitting</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Bottom bar -->
+        <div class="mt-8 pt-6 border-t border-gray-100 flex items-center justify-between">
+          <p class="text-sm text-gray-400">Servicing Sunbury, Melbourne & Gippsland</p>
+          <a href="services.html" class="text-sm font-semibold text-brand hover:text-brand-dark transition-colors duration-200 flex items-center gap-1.5">
+            View All Services
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
     <!-- Mobile Menu Panel -->
-    <div id="mobile-menu" class="md:hidden overflow-hidden transition-[max-height] duration-300 ease-out max-h-0 bg-white border-t border-gray-200">
+    <div id="mobile-menu" class="lg:hidden overflow-hidden transition-[max-height] duration-300 ease-out max-h-0 bg-white border-t border-gray-200">
       <div class="px-4 py-4 flex flex-col gap-1">
-        <a href="#services" class="mobile-nav-link block px-4 py-3 text-sm font-semibold text-gray-600 hover:text-brand hover:bg-gray-50 active:bg-gray-100 rounded-lg transition-colors duration-200">Services</a>
-        <a href="#about" class="mobile-nav-link block px-4 py-3 text-sm font-semibold text-gray-600 hover:text-brand hover:bg-gray-50 active:bg-gray-100 rounded-lg transition-colors duration-200">About</a>
-        <a href="#gallery" class="mobile-nav-link block px-4 py-3 text-sm font-semibold text-gray-600 hover:text-brand hover:bg-gray-50 active:bg-gray-100 rounded-lg transition-colors duration-200">Our Work</a>
-        <a href="#contact" class="mobile-nav-link block px-4 py-3 text-sm font-semibold text-gray-600 hover:text-brand hover:bg-gray-50 active:bg-gray-100 rounded-lg transition-colors duration-200">Contact</a>
+        <!-- Services Accordion -->
+        <div>
+          <button id="mobile-services-btn" class="w-full flex items-center justify-between px-4 py-3 text-sm font-semibold text-gray-600 hover:text-brand hover:bg-gray-50 active:bg-gray-100 rounded-lg transition-colors duration-200" aria-expanded="false">
+            Services
+            <svg id="mobile-services-chevron" class="w-4 h-4 transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div id="mobile-services-submenu" class="overflow-hidden max-h-0 transition-[max-height] duration-300 ease-out">
+            <div class="pl-4 py-2 flex flex-col gap-0.5">
+              <a href="site-preparation.html" class="mobile-nav-link block px-4 py-2.5 text-sm font-medium text-brand hover:bg-brand-50 rounded-lg transition-colors duration-200">Site Preparation</a>
+              <a href="earthmoving-and-haulage.html" class="mobile-nav-link block px-4 py-2.5 text-sm font-medium text-brand hover:bg-brand-50 rounded-lg transition-colors duration-200">Earthmoving & Haulage</a>
+              <a href="rural-and-land-work.html" class="mobile-nav-link block px-4 py-2.5 text-sm font-medium text-brand hover:bg-brand-50 rounded-lg transition-colors duration-200">Rural & Land Work</a>
+              <a href="plumbing.html" class="mobile-nav-link block px-4 py-2.5 text-sm font-medium text-brand hover:bg-brand-50 rounded-lg transition-colors duration-200">Plumbing</a>
+              <a href="services.html" class="mobile-nav-link block px-4 py-2.5 text-sm font-medium text-gray-500 hover:bg-gray-50 rounded-lg transition-colors duration-200">View All Services</a>
+            </div>
+          </div>
+        </div>
+        <a href="about.html" class="mobile-nav-link block px-4 py-3 text-sm font-semibold text-gray-600 hover:text-brand hover:bg-gray-50 active:bg-gray-100 rounded-lg transition-colors duration-200">About</a>
+        <a href="our-work.html" class="mobile-nav-link block px-4 py-3 text-sm font-semibold text-gray-600 hover:text-brand hover:bg-gray-50 active:bg-gray-100 rounded-lg transition-colors duration-200">Our Work</a>
+        <a href="contact.html" class="mobile-nav-link block px-4 py-3 text-sm font-semibold text-gray-600 hover:text-brand hover:bg-gray-50 active:bg-gray-100 rounded-lg transition-colors duration-200">Contact</a>
       </div>
     </div>
   </nav>
 
   <script>
     (function() {
-      const btn = document.getElementById('mobile-menu-btn');
-      const menu = document.getElementById('mobile-menu');
-      const hamburger = document.getElementById('hamburger-icon');
-      const closeIcon = document.getElementById('close-icon');
-      const links = menu.querySelectorAll('.mobile-nav-link');
+      // Mobile menu toggle
+      var btn = document.getElementById('mobile-menu-btn');
+      var menu = document.getElementById('mobile-menu');
+      var hamburger = document.getElementById('hamburger-icon');
+      var closeIcon = document.getElementById('close-icon');
+      var links = menu.querySelectorAll('.mobile-nav-link');
+
+      function closeMenu() {
+        menu.style.maxHeight = '0px';
+        hamburger.classList.remove('hidden');
+        closeIcon.classList.add('hidden');
+        btn.setAttribute('aria-expanded', 'false');
+      }
 
       function toggleMenu() {
-        const isOpen = menu.style.maxHeight && menu.style.maxHeight !== '0px';
+        var isOpen = menu.style.maxHeight && menu.style.maxHeight !== '0px';
         if (isOpen) {
-          menu.style.maxHeight = '0px';
-          hamburger.classList.remove('hidden');
-          closeIcon.classList.add('hidden');
-          btn.setAttribute('aria-expanded', 'false');
+          closeMenu();
         } else {
           menu.style.maxHeight = menu.scrollHeight + 'px';
           hamburger.classList.add('hidden');
@@ -180,26 +263,87 @@
       }
 
       btn.addEventListener('click', toggleMenu);
+      links.forEach(function(link) { link.addEventListener('click', closeMenu); });
 
-      links.forEach(function(link) {
-        link.addEventListener('click', function() {
-          menu.style.maxHeight = '0px';
-          hamburger.classList.remove('hidden');
-          closeIcon.classList.add('hidden');
-          btn.setAttribute('aria-expanded', 'false');
+      // Mobile services accordion
+      var mobileServicesBtn = document.getElementById('mobile-services-btn');
+      var mobileSubmenu = document.getElementById('mobile-services-submenu');
+      var mobileChevron = document.getElementById('mobile-services-chevron');
+
+      if (mobileServicesBtn) {
+        mobileServicesBtn.addEventListener('click', function() {
+          var isOpen = mobileSubmenu.style.maxHeight && mobileSubmenu.style.maxHeight !== '0px';
+          if (isOpen) {
+            mobileSubmenu.style.maxHeight = '0px';
+            mobileChevron.style.transform = 'rotate(0deg)';
+            mobileServicesBtn.setAttribute('aria-expanded', 'false');
+          } else {
+            mobileSubmenu.style.maxHeight = mobileSubmenu.scrollHeight + 'px';
+            mobileChevron.style.transform = 'rotate(180deg)';
+            mobileServicesBtn.setAttribute('aria-expanded', 'true');
+            menu.style.maxHeight = menu.scrollHeight + mobileSubmenu.scrollHeight + 'px';
+          }
         });
-      });
-    })();
-  </script>
+      }
 
-  <script>
-    (function() {
+      // Desktop mega menu
+      var servicesBtn = document.getElementById('services-btn');
+      var servicesTrigger = document.getElementById('services-trigger');
+      var megaMenu = document.getElementById('mega-menu');
+      var servicesChevron = document.getElementById('services-chevron');
+      var closeTimeout;
+
+      function openMega() {
+        clearTimeout(closeTimeout);
+        megaMenu.style.opacity = '1';
+        megaMenu.style.transform = 'translateY(0)';
+        megaMenu.style.pointerEvents = 'auto';
+        servicesChevron.style.transform = 'rotate(180deg)';
+        servicesBtn.setAttribute('aria-expanded', 'true');
+      }
+
+      function closeMega() {
+        megaMenu.style.opacity = '0';
+        megaMenu.style.transform = 'translateY(-0.5rem)';
+        megaMenu.style.pointerEvents = 'none';
+        servicesChevron.style.transform = 'rotate(0deg)';
+        servicesBtn.setAttribute('aria-expanded', 'false');
+      }
+
+      function scheduleClose() {
+        closeTimeout = setTimeout(closeMega, 150);
+      }
+
+      if (servicesBtn && megaMenu) {
+        servicesTrigger.addEventListener('mouseenter', openMega);
+        servicesTrigger.addEventListener('mouseleave', scheduleClose);
+        megaMenu.addEventListener('mouseenter', openMega);
+        megaMenu.addEventListener('mouseleave', scheduleClose);
+
+        servicesBtn.addEventListener('click', function() {
+          var isOpen = megaMenu.style.opacity === '1';
+          if (isOpen) { closeMega(); } else { openMega(); }
+        });
+
+        document.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape') closeMega();
+        });
+
+        document.addEventListener('click', function(e) {
+          if (!servicesTrigger.contains(e.target) && !megaMenu.contains(e.target)) {
+            closeMega();
+          }
+        });
+      }
+
+      // Scroll hide/show nav
       var nav = document.getElementById('main-nav');
       var lastScroll = 0;
       window.addEventListener('scroll', function() {
         var current = window.scrollY;
         if (current > lastScroll && current > 80) {
           nav.style.transform = 'translateY(-100%)';
+          closeMega();
         } else {
           nav.style.transform = 'translateY(0)';
         }
@@ -211,26 +355,26 @@
   <!-- Hero Section -->
   <header class="relative min-h-[90vh] sm:min-h-screen flex flex-col overflow-hidden grain" id="hero">
     <div class="absolute inset-0">
-      <img src="Assets/Image 1 - Hero.jpg" alt="DIG and MOVE Earthmoving - earthworks across Melbourne and Gippsland" class="w-full h-full object-cover" loading="eager">
+      <img src="Assets/hero-residential-excavation.jpg" alt="DIG and MOVE Earthworks - earthworks in Sunbury, Melbourne and Gippsland" class="w-full h-full object-cover" loading="eager">
       <div class="hero-gradient absolute inset-0 mix-blend-multiply"></div>
     </div>
 
     <!-- Hero Content - pushed to bottom -->
     <div class="relative z-10 mt-auto max-w-6xl mx-auto w-full px-4 sm:px-6 lg:px-8 pb-24 sm:pb-28">
       <div class="max-w-2xl">
-        <p class="text-white font-semibold text-xs tracking-[0.2em] uppercase mb-2">Melbourne & Gippsland, VIC</p>
+        <p class="text-white font-semibold text-xs tracking-[0.2em] uppercase mb-2">Based in Sunbury, Servicing Melbourne & Gippsland</p>
         <h1 class="text-4xl sm:text-5xl lg:text-6xl font-display text-white leading-[0.95] mb-6" style="letter-spacing: -0.03em;">
           Family-Run Earthmoving You Can Count On
         </h1>
         <p class="text-sm text-gray-200 leading-relaxed mb-10 max-w-lg" style="line-height: 1.7;">
-          Professional earthworks across Melbourne and Gippsland. Site cuts, dam cleans, footings, concrete prep and more. Fully insured with all the right tickets.
+          Professional earthworks based in Sunbury, servicing Melbourne and Gippsland. Site cuts, dam cleans, footings, concrete prep and more. Fully insured with all the right tickets.
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
           <a href="tel:0427297942" class="btn-primary inline-flex items-center justify-center gap-2 bg-brand hover:bg-brand-dark active:bg-brand-dark text-white font-bold text-sm tracking-[0.1em] uppercase px-8 py-4 transition-spring transition-transform duration-300 hover:scale-[1.03] active:scale-[0.98] shadow-floating">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
             Get a Free Quote
           </a>
-          <a href="#services" class="btn-secondary inline-flex items-center justify-center gap-2 text-white font-semibold text-sm tracking-[0.1em] uppercase px-8 py-4 border border-white/40 hover:bg-white/10 active:bg-white/15 transition-spring transition-transform duration-300 hover:scale-[1.03] active:scale-[0.98]">
+          <a href="services.html" class="btn-secondary inline-flex items-center justify-center gap-2 text-white font-semibold text-sm tracking-[0.1em] uppercase px-8 py-4 border border-white/40 hover:bg-white/10 active:bg-white/15 transition-spring transition-transform duration-300 hover:scale-[1.03] active:scale-[0.98]">
             View Our Services
           </a>
         </div>
@@ -254,37 +398,32 @@
       </div>
 
       <div class="grid md:grid-cols-2 gap-8">
-        <!-- Service 1: Site Cuts & Cleans -->
-        <article class="group bg-white p-8 shadow-elevated hover:shadow-floating transition-spring transition-transform duration-300 hover:-translate-y-1 border border-gray-100">
-          <div class="w-10 h-10 bg-brand/10 flex items-center justify-center mb-5">
-            <svg class="w-5 h-5 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
-          </div>
-          <h3 class="text-xl font-display text-gray-900 mb-3">Site Cuts & Cleans</h3>
+        <!-- Category 1: Site Preparation -->
+        <a href="site-preparation.html" class="group bg-white p-8 transition-spring transition-transform duration-300 hover:-translate-y-1 border border-gray-100 block">
+          <h3 class="text-xl font-display text-gray-900 mb-3">Site Preparation</h3>
           <p class="text-gray-500 text-sm mb-4" style="line-height: 1.7;">Precision site preparation for residential and commercial builds. We cut and clean your site to spec, ready for the next stage of construction.</p>
-          <ul class="space-y-2 text-sm text-gray-600">
+          <ul class="space-y-2 text-sm text-gray-600 mb-5">
             <li class="flex items-center gap-2">
               <svg class="w-4 h-4 text-brand flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              Residential & commercial site cuts
-            </li>
-            <li class="flex items-center gap-2">
-              <svg class="w-4 h-4 text-brand flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              Site clearing & levelling
+              Site cuts & cleans
             </li>
             <li class="flex items-center gap-2">
               <svg class="w-4 h-4 text-brand flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
               Concrete prep & pad work
             </li>
+            <li class="flex items-center gap-2">
+              <svg class="w-4 h-4 text-brand flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              Footings & pier holes
+            </li>
           </ul>
-        </article>
+          <span class="text-brand font-semibold text-sm inline-flex items-center gap-1 group-hover:gap-2 transition-all duration-200">Learn more <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></span>
+        </a>
 
-        <!-- Service 2: Dam Cleans & Farm Tracks -->
-        <article class="group bg-white p-8 shadow-elevated hover:shadow-floating transition-spring transition-transform duration-300 hover:-translate-y-1 border border-gray-100">
-          <div class="w-10 h-10 bg-brand/10 flex items-center justify-center mb-5">
-            <svg class="w-5 h-5 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
-          </div>
-          <h3 class="text-xl font-display text-gray-900 mb-3">Dam Cleans & Farm Tracks</h3>
+        <!-- Category 2: Rural & Land Work -->
+        <a href="rural-and-land-work.html" class="group bg-white p-8 transition-spring transition-transform duration-300 hover:-translate-y-1 border border-gray-100 block">
+          <h3 class="text-xl font-display text-gray-900 mb-3">Rural & Land Work</h3>
           <p class="text-gray-500 text-sm mb-4" style="line-height: 1.7;">Rural property services including dam restoration and farm access track construction. We keep your property functional and well-maintained year round.</p>
-          <ul class="space-y-2 text-sm text-gray-600">
+          <ul class="space-y-2 text-sm text-gray-600 mb-5">
             <li class="flex items-center gap-2">
               <svg class="w-4 h-4 text-brand flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
               Dam desilting & clean outs
@@ -298,39 +437,14 @@
               Drainage & water management
             </li>
           </ul>
-        </article>
+          <span class="text-brand font-semibold text-sm inline-flex items-center gap-1 group-hover:gap-2 transition-all duration-200">Learn more <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></span>
+        </a>
 
-        <!-- Service 3: Footings & Pier Holes -->
-        <article class="group bg-white p-8 shadow-elevated hover:shadow-floating transition-spring transition-transform duration-300 hover:-translate-y-1 border border-gray-100">
-          <div class="w-10 h-10 bg-brand/10 flex items-center justify-center mb-5">
-            <svg class="w-5 h-5 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/></svg>
-          </div>
-          <h3 class="text-xl font-display text-gray-900 mb-3">Footings & Pier Holes</h3>
-          <p class="text-gray-500 text-sm mb-4" style="line-height: 1.7;">Accurate excavation for footings and pier holes to engineer specs. We work with builders and concreters to get foundations right the first time.</p>
-          <ul class="space-y-2 text-sm text-gray-600">
-            <li class="flex items-center gap-2">
-              <svg class="w-4 h-4 text-brand flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              Strip & pad footings
-            </li>
-            <li class="flex items-center gap-2">
-              <svg class="w-4 h-4 text-brand flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              Pier holes to spec
-            </li>
-            <li class="flex items-center gap-2">
-              <svg class="w-4 h-4 text-brand flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              Trenching & service runs
-            </li>
-          </ul>
-        </article>
-
-        <!-- Service 4: Load Outs & Soil Spreading -->
-        <article class="group bg-white p-8 shadow-elevated hover:shadow-floating transition-spring transition-transform duration-300 hover:-translate-y-1 border border-gray-100">
-          <div class="w-10 h-10 bg-brand/10 flex items-center justify-center mb-5">
-            <svg class="w-5 h-5 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-          </div>
-          <h3 class="text-xl font-display text-gray-900 mb-3">Load Outs & Soil Spreading</h3>
+        <!-- Category 3: Earthmoving & Haulage -->
+        <a href="earthmoving-and-haulage.html" class="group bg-white p-8 transition-spring transition-transform duration-300 hover:-translate-y-1 border border-gray-100 block">
+          <h3 class="text-xl font-display text-gray-900 mb-3">Earthmoving & Haulage</h3>
           <p class="text-gray-500 text-sm mb-4" style="line-height: 1.7;">Efficient material handling for dirt, rock, and concrete. Whether you need material moved on or off site, we handle the heavy lifting.</p>
-          <ul class="space-y-2 text-sm text-gray-600">
+          <ul class="space-y-2 text-sm text-gray-600 mb-5">
             <li class="flex items-center gap-2">
               <svg class="w-4 h-4 text-brand flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
               Dirt, rock & concrete load outs
@@ -344,7 +458,36 @@
               Material cartage & removal
             </li>
           </ul>
-        </article>
+          <span class="text-brand font-semibold text-sm inline-flex items-center gap-1 group-hover:gap-2 transition-all duration-200">Learn more <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></span>
+        </a>
+
+        <!-- Category 4: Plumbing -->
+        <a href="plumbing.html" class="group bg-white p-8 transition-spring transition-transform duration-300 hover:-translate-y-1 border border-gray-100 block">
+          <h3 class="text-xl font-display text-gray-900 mb-3">Plumbing</h3>
+          <p class="text-gray-500 text-sm mb-4" style="line-height: 1.7;">Fully licenced plumber on the team for all types of plumbing work. General plumbing, hot water systems, blocked drains, gas fitting, and more.</p>
+          <ul class="space-y-2 text-sm text-gray-600 mb-5">
+            <li class="flex items-center gap-2">
+              <svg class="w-4 h-4 text-brand flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              General plumbing & hot water systems
+            </li>
+            <li class="flex items-center gap-2">
+              <svg class="w-4 h-4 text-brand flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              Blocked drains & drainage
+            </li>
+            <li class="flex items-center gap-2">
+              <svg class="w-4 h-4 text-brand flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              Gas fitting & compliance
+            </li>
+          </ul>
+          <span class="text-brand font-semibold text-sm inline-flex items-center gap-1 group-hover:gap-2 transition-all duration-200">Learn more <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></span>
+        </a>
+      </div>
+
+      <div class="text-center mt-12">
+        <a href="services.html" class="inline-flex items-center gap-2 bg-brand hover:bg-brand-dark active:bg-brand-dark text-white font-semibold text-sm px-6 py-3 transition-transform duration-300 hover:scale-[1.03] active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand focus-visible:outline-offset-2" style="transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);">
+          View All Services
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
       </div>
     </div>
   </section>
@@ -357,7 +500,7 @@
         <div class="relative">
           <div class="overflow-hidden shadow-floating">
             <div class="relative">
-              <img src="Assets/Image 2.jpg" alt="DIG and MOVE Earthmoving on site" class="w-full h-[400px] sm:h-[500px] object-cover" loading="lazy">
+              <img src="Assets/retaining-wall.jpg" alt="DIG and MOVE Earthworks on site" class="w-full h-[400px] sm:h-[500px] object-cover" loading="lazy">
               <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
               <div class="absolute inset-0 bg-brand/10 mix-blend-multiply"></div>
             </div>
@@ -369,7 +512,7 @@
           <p class="text-brand font-semibold text-sm tracking-wide uppercase mb-3">Why Choose Us</p>
           <h2 class="text-3xl sm:text-4xl font-display text-gray-900 mb-6" style="letter-spacing: -0.03em;">Earthworks Done Right</h2>
           <p class="text-gray-600 mb-8" style="line-height: 1.7;">
-            DIG and MOVE Earthmoving is a family-run earthworks business operating across Melbourne and the Gippsland region. We cover all types of earthworks - from site cuts and dam cleans to footings, pier holes, and material load outs. We position ourselves on professional service and customer satisfaction, and we're not locked into one narrow lane.
+            DIG and MOVE Earthworks is a family-run earthworks business based in Sunbury, servicing across Melbourne, surrounding suburbs, and the Gippsland region. We cover all types of earthworks - from site cuts and dam cleans to footings, pier holes, and material load outs. We position ourselves on professional service and customer satisfaction, and we're not locked into one narrow lane.
           </p>
 
           <div class="space-y-6">
@@ -398,11 +541,16 @@
                 <svg class="w-5 h-5 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
               </div>
               <div>
-                <h3 class="font-semibold text-gray-900 mb-1">Melbourne to Gippsland</h3>
-                <p class="text-sm text-gray-500" style="line-height: 1.7;">We service a wide area from metro Melbourne out to the Gippsland region. If you're not sure whether we cover your area, just give us a call.</p>
+                <h3 class="font-semibold text-gray-900 mb-1">Sunbury, Melbourne & Gippsland</h3>
+                <p class="text-sm text-gray-500" style="line-height: 1.7;">Based in Sunbury, we service the local area, greater Melbourne, and out to the Gippsland region. If you're not sure whether we cover your area, just give us a call.</p>
               </div>
             </div>
           </div>
+
+          <a href="about.html" class="inline-flex items-center gap-2 mt-8 text-brand font-semibold text-sm hover:text-brand-dark active:text-brand-dark transition-colors duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand focus-visible:outline-offset-2">
+            Learn more about us
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
         </div>
       </div>
     </div>
@@ -414,25 +562,32 @@
       <div class="text-center max-w-2xl mx-auto mb-16">
         <p class="text-brand font-semibold text-sm tracking-wide uppercase mb-3">Our Work</p>
         <h2 class="text-3xl sm:text-4xl font-display text-gray-900 mb-4" style="letter-spacing: -0.03em;">Recent Projects</h2>
-        <p class="text-gray-500 text-base" style="line-height: 1.7;">Real results from real job sites across Melbourne and Gippsland. Here's some of our recent earthworks.</p>
+        <p class="text-gray-500 text-base" style="line-height: 1.7;">Real results from real job sites across Sunbury, Melbourne, and Gippsland. Here's some of our recent earthworks.</p>
       </div>
 
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="relative overflow-hidden group">
-          <img src="Assets/Image 3.jpg" alt="Earthmoving project by DIG and MOVE" class="w-full h-72 sm:h-80 object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" style="transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);">
+          <img src="Assets/site-cut.jpg" alt="Earthmoving project by DIG and MOVE" class="w-full h-72 sm:h-80 object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" style="transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);">
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
           <div class="absolute inset-0 bg-brand/5 mix-blend-multiply"></div>
         </div>
         <div class="relative overflow-hidden group">
-          <img src="Assets/Image 4.jpg" alt="Site cut completed by DIG and MOVE Earthmoving" class="w-full h-72 sm:h-80 object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" style="transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);">
+          <img src="Assets/soil-spreading.jpg" alt="Site cut completed by DIG and MOVE Earthworks" class="w-full h-72 sm:h-80 object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" style="transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);">
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
           <div class="absolute inset-0 bg-brand/5 mix-blend-multiply"></div>
         </div>
         <div class="relative overflow-hidden group sm:col-span-2 lg:col-span-1">
-          <img src="Assets/Image 5.jpg" alt="Excavation work by DIG and MOVE Earthmoving" class="w-full h-72 sm:h-80 object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" style="transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);">
+          <img src="Assets/form-tracks.jpg" alt="Excavation work by DIG and MOVE Earthworks" class="w-full h-72 sm:h-80 object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" style="transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);">
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
           <div class="absolute inset-0 bg-brand/5 mix-blend-multiply"></div>
         </div>
+      </div>
+
+      <div class="text-center mt-10">
+        <a href="our-work.html" class="inline-flex items-center gap-2 bg-brand hover:bg-brand-dark active:bg-brand-dark text-white font-semibold text-sm px-6 py-3 transition-transform duration-300 hover:scale-[1.03] active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand focus-visible:outline-offset-2" style="transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);">
+          View All Projects
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
       </div>
     </div>
   </section>
@@ -483,7 +638,7 @@
               <p class="text-white text-sm" style="line-height: 1.7;">Had DIG and MOVE out to do the site cut for our new build. They were on time, professional, and left the site exactly how we needed it. The excavator operator really knew what he was doing. Would use them again without hesitation.</p>
             </div>
             <footer class="mt-8 pt-6 border-t border-white/20">
-              <p class="text-white/80 text-xs">DIG and MOVE Earthmoving &nbsp;&bull;&nbsp; Melbourne</p>
+              <p class="text-white/80 text-xs">DIG and MOVE Earthworks &nbsp;&bull;&nbsp; Melbourne</p>
             </footer>
           </blockquote>
 
@@ -506,7 +661,7 @@
               <p class="text-white/80 text-sm" style="line-height: 1.7;">We use DIG and MOVE for all our site prep work. They're reliable, turn up when they say they will, and the standard of work is consistently high. Footings are always spot on to spec. Makes our builds so much smoother.</p>
             </div>
             <footer class="mt-8 pt-6 border-t border-white/10">
-              <p class="text-white/40 text-xs">DIG and MOVE Earthmoving &nbsp;&bull;&nbsp; Gippsland</p>
+              <p class="text-white/40 text-xs">DIG and MOVE Earthworks &nbsp;&bull;&nbsp; Gippsland</p>
             </footer>
           </blockquote>
 
@@ -529,7 +684,7 @@
               <p class="text-white/80 text-sm" style="line-height: 1.7;">Had the dam cleaned out and new farm tracks put in across the property. They did a brilliant job, the dam holds water properly again and the tracks are solid. Really happy with the whole experience, great family business.</p>
             </div>
             <footer class="mt-8 pt-6 border-t border-white/10">
-              <p class="text-white/40 text-xs">DIG and MOVE Earthmoving &nbsp;&bull;&nbsp; Gippsland</p>
+              <p class="text-white/40 text-xs">DIG and MOVE Earthworks &nbsp;&bull;&nbsp; Gippsland</p>
             </footer>
           </blockquote>
 
@@ -552,7 +707,7 @@
               <p class="text-white/80 text-sm" style="line-height: 1.7;">These guys do the concrete prep and pier holes on most of our jobs now. Always accurate, always on time, and they understand what we need as concreters. The footings are always clean and ready to pour. Top operators.</p>
             </div>
             <footer class="mt-8 pt-6 border-t border-white/10">
-              <p class="text-white/40 text-xs">DIG and MOVE Earthmoving &nbsp;&bull;&nbsp; Melbourne</p>
+              <p class="text-white/40 text-xs">DIG and MOVE Earthworks &nbsp;&bull;&nbsp; Melbourne</p>
             </footer>
           </blockquote>
 
@@ -575,7 +730,7 @@
               <p class="text-white/80 text-sm" style="line-height: 1.7;">Needed soil spread across the backyard and some old concrete removed. They were in and out in a day, cleaned up after themselves, and the price was very fair. Really easy to deal with and clearly take pride in their work.</p>
             </div>
             <footer class="mt-8 pt-6 border-t border-white/10">
-              <p class="text-white/40 text-xs">DIG and MOVE Earthmoving &nbsp;&bull;&nbsp; Melbourne</p>
+              <p class="text-white/40 text-xs">DIG and MOVE Earthworks &nbsp;&bull;&nbsp; Melbourne</p>
             </footer>
           </blockquote>
 
@@ -634,38 +789,62 @@
   </section>
 
   <!-- Process Section -->
-  <section class="py-20 sm:py-28 bg-white">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center max-w-2xl mx-auto mb-16">
+  <section class="relative">
+      <!-- Mobile header: shown above images on small screens -->
+      <div class="md:hidden bg-white py-12 px-4 text-center">
         <p class="text-brand font-semibold text-sm tracking-wide uppercase mb-3">How It Works</p>
-        <h2 class="text-3xl sm:text-4xl font-display text-gray-900 mb-4" style="letter-spacing: -0.03em;">Simple 3-Step Process</h2>
+        <h2 class="text-3xl font-display text-gray-900 mb-4" style="letter-spacing: -0.03em;">Simple 3-Step Process</h2>
         <p class="text-gray-500 text-base" style="line-height: 1.7;">Getting your earthworks sorted is easier than you think.</p>
       </div>
+      <div class="grid md:grid-cols-3" style="min-height: 600px;">
+        <!-- Step 1 -->
+        <div class="relative overflow-hidden group">
+          <img src="Assets/lawn-prep-1.jpg" alt="Get in touch with DIG and MOVE" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-black/40"></div>
+          <div class="absolute inset-0 bg-brand/15 mix-blend-multiply"></div>
+          <div class="relative z-10 flex flex-col justify-end h-full p-8 pb-12">
+            <div class="w-14 h-14 bg-brand flex items-center justify-center mb-5">
+              <span class="text-2xl font-display text-white">1</span>
+            </div>
+            <h3 class="text-xl font-display text-white mb-2">Get in Touch</h3>
+            <p class="text-sm text-white/80" style="line-height: 1.7;">Give us a call, send an email, or message us on Facebook. We'll chat about what you need and give you a free quote.</p>
+          </div>
+        </div>
 
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="text-center">
-          <div class="w-16 h-16 bg-brand/10 flex items-center justify-center mx-auto mb-6">
-            <span class="text-2xl font-display text-brand">1</span>
+        <!-- Step 2 -->
+        <div class="relative overflow-hidden group">
+          <img src="Assets/site-cut.jpg" alt="DIG and MOVE at work on site" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-black/40"></div>
+          <div class="absolute inset-0 bg-brand/15 mix-blend-multiply"></div>
+          <!-- Title overlay on middle image (desktop only) -->
+          <div class="hidden md:flex absolute top-0 left-0 right-0 z-20 flex-col items-center pt-12 pb-8 text-center">
+            <p class="text-white font-semibold text-sm tracking-wide uppercase mb-3">How It Works</p>
+            <h2 class="text-3xl sm:text-4xl font-display text-white mb-4" style="letter-spacing: -0.03em;">Simple 3-Step Process</h2>
+            <p class="text-white/70 text-base" style="line-height: 1.7;">Getting your earthworks sorted is easier than you think.</p>
           </div>
-          <h3 class="text-lg font-display text-gray-900 mb-2">Get in Touch</h3>
-          <p class="text-sm text-gray-500" style="line-height: 1.7;">Give us a call, send an email, or message us on Facebook. We'll chat about what you need and give you a free quote.</p>
+          <div class="relative z-10 flex flex-col justify-end h-full p-8 pb-12">
+            <div class="w-14 h-14 bg-brand flex items-center justify-center mb-5">
+              <span class="text-2xl font-display text-white">2</span>
+            </div>
+            <h3 class="text-xl font-display text-white mb-2">We Get to Work</h3>
+            <p class="text-sm text-white/80" style="line-height: 1.7;">We show up on time with the right gear and get your earthworks done to a professional standard, with care and precision.</p>
+          </div>
         </div>
-        <div class="text-center">
-          <div class="w-16 h-16 bg-brand/10 flex items-center justify-center mx-auto mb-6">
-            <span class="text-2xl font-display text-brand">2</span>
+
+        <!-- Step 3 -->
+        <div class="relative overflow-hidden group">
+          <img src="Assets/driveway-gravel-2.jpg" alt="Finished earthworks by DIG and MOVE" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-black/40"></div>
+          <div class="absolute inset-0 bg-brand/15 mix-blend-multiply"></div>
+          <div class="relative z-10 flex flex-col justify-end h-full p-8 pb-12">
+            <div class="w-14 h-14 bg-brand flex items-center justify-center mb-5">
+              <span class="text-2xl font-display text-white">3</span>
+            </div>
+            <h3 class="text-xl font-display text-white mb-2">Job Done Right</h3>
+            <p class="text-sm text-white/80" style="line-height: 1.7;">We walk you through the finished work and make sure you're completely happy before we leave. That's the DIG and MOVE standard.</p>
           </div>
-          <h3 class="text-lg font-display text-gray-900 mb-2">We Get to Work</h3>
-          <p class="text-sm text-gray-500" style="line-height: 1.7;">We show up on time with the right gear and get your earthworks done to a professional standard, with care and precision.</p>
-        </div>
-        <div class="text-center">
-          <div class="w-16 h-16 bg-brand/10 flex items-center justify-center mx-auto mb-6">
-            <span class="text-2xl font-display text-brand">3</span>
-          </div>
-          <h3 class="text-lg font-display text-gray-900 mb-2">Job Done Right</h3>
-          <p class="text-sm text-gray-500" style="line-height: 1.7;">We walk you through the finished work and make sure you're completely happy before we leave. That's the DIG and MOVE standard.</p>
         </div>
       </div>
-    </div>
   </section>
 
   <!-- Service Area Section -->
@@ -674,21 +853,19 @@
       <div class="text-center max-w-2xl mx-auto mb-16">
         <p class="text-brand font-semibold text-sm tracking-wide uppercase mb-3">Service Area</p>
         <h2 class="text-3xl sm:text-4xl font-display text-gray-900 mb-4" style="letter-spacing: -0.03em;">Where We Work</h2>
-        <p class="text-gray-500 text-base" style="line-height: 1.7;">Proudly servicing residential, rural, and commercial sites across Melbourne and Gippsland.</p>
+        <p class="text-gray-500 text-base" style="line-height: 1.7;">Based in Sunbury, proudly servicing residential, rural, and commercial sites across Melbourne and Gippsland.</p>
       </div>
 
-      <div class="grid sm:grid-cols-2 gap-8 max-w-2xl mx-auto">
-        <div class="bg-white p-8 shadow-elevated border border-gray-100 text-center">
-          <div class="w-14 h-14 bg-brand/10 flex items-center justify-center mx-auto mb-4">
-            <svg class="w-7 h-7 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-          </div>
-          <h3 class="text-xl font-display text-gray-900 mb-2">Melbourne, VIC</h3>
+      <div class="grid sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
+        <div class="bg-white p-8 border border-gray-100 text-center">
+          <h3 class="text-xl font-display text-gray-900 mb-2">Sunbury & Surrounds</h3>
+          <p class="text-sm text-gray-500" style="line-height: 1.7;">Our home base. Earthmoving services for residential, rural, and commercial projects right here in Sunbury and the surrounding area.</p>
+        </div>
+        <div class="bg-white p-8 border border-gray-100 text-center">
+          <h3 class="text-xl font-display text-gray-900 mb-2">Greater Melbourne</h3>
           <p class="text-sm text-gray-500" style="line-height: 1.7;">Covering greater Melbourne and surrounding suburbs for residential and commercial earthworks.</p>
         </div>
-        <div class="bg-white p-8 shadow-elevated border border-gray-100 text-center">
-          <div class="w-14 h-14 bg-brand/10 flex items-center justify-center mx-auto mb-4">
-            <svg class="w-7 h-7 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-          </div>
+        <div class="bg-white p-8 border border-gray-100 text-center">
           <h3 class="text-xl font-display text-gray-900 mb-2">Gippsland Region</h3>
           <p class="text-sm text-gray-500" style="line-height: 1.7;">Servicing rural properties and builds across the Gippsland area. Not sure if we cover your area? Just give us a call.</p>
         </div>
@@ -708,9 +885,9 @@
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
           Call 0427 297 942
         </a>
-        <a href="mailto:hastingshaulage1@outlook.com" class="btn-secondary inline-flex items-center justify-center gap-3 bg-white hover:bg-gray-100 active:bg-gray-200 text-gray-900 font-semibold text-lg px-10 py-5 border border-white transition-spring transition-transform duration-300 hover:scale-[1.03] active:scale-[0.98]">
+        <a href="contact.html" class="btn-secondary inline-flex items-center justify-center gap-3 bg-white hover:bg-gray-100 active:bg-gray-200 text-gray-900 font-semibold text-lg px-10 py-5 border border-white transition-spring transition-transform duration-300 hover:scale-[1.03] active:scale-[0.98]">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-          Email Us
+          Contact Us
         </a>
       </div>
     </div>
@@ -752,7 +929,7 @@
                 <svg class="w-5 h-5 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
               </div>
               <div>
-                <p class="text-sm font-semibold text-gray-900">Melbourne & Gippsland</p>
+                <p class="text-sm font-semibold text-gray-900">Sunbury, Melbourne & Gippsland</p>
                 <p class="text-xs text-gray-400">VIC, Australia</p>
               </div>
             </div>
@@ -760,7 +937,7 @@
         </div>
 
         <!-- Right: Form -->
-        <form action="#" method="POST" class="bg-gray-50 p-8 sm:p-10 shadow-elevated border border-gray-100">
+        <form action="https://formspree.io/f/xqeynjvo" method="POST" class="bg-gray-50 p-8 sm:p-10 border border-gray-100">
           <div class="grid sm:grid-cols-2 gap-5 mb-5">
             <div>
               <label for="form-name" class="block text-sm font-medium text-gray-700 mb-1.5">Name</label>
@@ -810,15 +987,15 @@
           <div class="mb-4">
             <span class="font-display text-2xl tracking-tight text-gray-900" style="letter-spacing: -0.02em;"><span class="text-brand">DIG</span> and <span class="text-brand">MOVE</span></span>
           </div>
-          <p class="text-sm text-gray-500" style="line-height: 1.7;">Family-run earthmoving across Melbourne and Gippsland. Dam cleans, site cuts, footings, concrete prep, soil spreading and more. Fully insured.</p>
+          <p class="text-sm text-gray-500" style="line-height: 1.7;">Sunbury-based earthmoving servicing Melbourne and Gippsland. Dam cleans, site cuts, footings, concrete prep, soil spreading and more. Fully insured.</p>
         </div>
         <div>
           <h4 class="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-4">Quick Links</h4>
           <nav class="space-y-2" aria-label="Footer navigation">
-            <a href="#services" class="block text-sm text-gray-500 hover:text-brand transition-colors duration-200">Services</a>
-            <a href="#about" class="block text-sm text-gray-500 hover:text-brand transition-colors duration-200">About</a>
-            <a href="#gallery" class="block text-sm text-gray-500 hover:text-brand transition-colors duration-200">Our Work</a>
-            <a href="#contact" class="block text-sm text-gray-500 hover:text-brand transition-colors duration-200">Contact</a>
+            <a href="services.html" class="block text-sm text-gray-500 hover:text-brand transition-colors duration-200">Services</a>
+            <a href="about.html" class="block text-sm text-gray-500 hover:text-brand transition-colors duration-200">About</a>
+            <a href="our-work.html" class="block text-sm text-gray-500 hover:text-brand transition-colors duration-200">Our Work</a>
+            <a href="contact.html" class="block text-sm text-gray-500 hover:text-brand transition-colors duration-200">Contact</a>
           </nav>
         </div>
         <div>
@@ -834,19 +1011,19 @@
             </a>
             <p class="flex items-center gap-2 text-sm text-gray-500">
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-              Melbourne & Gippsland, VIC
+              Sunbury, Melbourne & Gippsland, VIC
             </p>
           </div>
           <!-- Social Links -->
           <div class="flex items-center gap-3 mt-4">
-            <a href="#" target="_blank" rel="noopener noreferrer" class="w-9 h-9 bg-gray-200 flex items-center justify-center hover:bg-brand transition-colors duration-200" aria-label="Follow DIG and MOVE Earthmoving on Facebook">
+            <a href="#" target="_blank" rel="noopener noreferrer" class="w-9 h-9 bg-gray-200 flex items-center justify-center hover:bg-brand transition-colors duration-200" aria-label="Follow DIG and MOVE Earthworks on Facebook">
               <svg class="w-4 h-4 text-gray-700" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
             </a>
           </div>
         </div>
       </div>
       <div class="border-t border-gray-200 pt-8 text-center">
-        <p class="text-xs text-gray-400">&copy; 2026 DIG and MOVE Earthmoving. All rights reserved.</p>
+        <p class="text-xs text-gray-400">&copy; 2026 DIG and MOVE Earthworks. All rights reserved.</p>
       </div>
     </div>
   </footer>
